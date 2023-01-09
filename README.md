@@ -13,13 +13,21 @@ Use the function import numpy.
 ### Step 4: 
 Print the eigen values and eigen vectors and end the program.
 ## Program:
+
 #Program to find the eigen values and eigen vectors.
+
 #Developed by: Samyuktha.S
+
 #RegisterNumber:22005276
+
 import numpy as np
+
 a=np.array([[2,2],[1,3]])
+
 values,vectors=np.linalg.eig(a)
+
 print("Eigen values are {} and Eigen Vectors are {}".format(values,vectors))
+
 ## Output:
 ![output](/ads.png)
 ## Result:
